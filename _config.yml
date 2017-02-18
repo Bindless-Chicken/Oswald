@@ -1,0 +1,58 @@
+title:            Oswald
+description:      the lucky Jekyll theme
+created:          Luckily found by
+url:
+
+# Settings for reading time
+reading_time:     true
+words_per_minute: 200
+
+# Disqus ID
+disqus:
+
+# Owner/author information
+owner:
+  name:           Oswald
+  avatar:         avatar.jpg
+  bio:            Hereafter we will aim to make Oswald a younger character, peppy, alert, saucy and venturesome, keeping him also neat and trim. 
+  email:          oswald@disney.com
+  # Put the full urls
+  # twitter:        
+  # facebook:       
+  # github:         
+  # stackexchange:  
+  # linkedin:       
+  # instagram:      
+  # flickr:         
+  # tumblr:         
+  # google_plus:    
+
+
+# Analytics and webmaster tools stuff goes here
+# google_analytics: 
+# google_verify:    
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:      
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:       Europe/London
+future:         true
+highlighter:    rouge
+markdown:       kramdown
+
+gems:
+  - jekyll-watch
+  - jekyll-paginate
+
+paginate: 7
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+include: [".htaccess"]
+exclude: ["LICENSE", "README.md"]
+
